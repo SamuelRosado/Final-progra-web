@@ -1,0 +1,142 @@
+body {
+    background: 
+    linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, black 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, black 25%, transparent 25%),
+    linear-gradient(45deg, black 25%, transparent 25%);	
+    background-size: 2em 2em;
+    background-color: #232323;
+  }
+  .container-login{
+
+    
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-width: 400px;
+    width: 100%;
+    margin-top: 180px;
+    text-align: center;
+    
+
+}
+.login-img{
+    align-self: center;
+   width: 50px;
+   height: 50px;
+}
+
+.textlogin{
+    
+    text-decoration: overline underline darkgrey;
+    
+    
+}
+input{
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    text-decoration: none;
+    
+    
+
+}
+.button{
+    
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    background-color: gray;
+    color: white;
+    text-align: center;
+      
+}
+.button:hover{
+    background-color: darkgray;
+    cursor: pointer;
+}
+/*Formulario de contacto*/  
+
+.container-formcontact{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+
+}
+.container-formcontact h2{
+
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+.container-formcontact p{
+
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+
+}
+.container-formcontact a{
+
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+.container-formcontact form .campo, textarea{
+
+width: 100%;
+padding: 15px 10px;
+font-size: 15px;
+border: 1px solid #dbdbdb;
+margin-bottom: 20px;
+border-radius: 3px;
+outline: 0px;
+
+}
+
+.container-formcontact form textarea{
+
+    max-width: 530px;
+    min-width: 530px;
+    max-height: 140px;
+    min-height: 150px;
+
+}
+.submitenviar{
+
+    margin-top: 15px;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background: solid gray;
+    color: black;
+    border: none;
+    border-radius: 3px;
+}
+.submitenviar:hover{
+
+    background: #e39403;
+}
+.buttonbacklogin{
+    width: 30px;
+    padding: 15px;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+.buttonbacklogin:hover{
+
+    background: #e39403;
+}
